@@ -41,7 +41,7 @@ function getFederalTax(grossPay,withHoldingCode){
                 federalTaxWithHolding = grossPay*taxRate
                
          }
-         return federalTaxWithHolding
+         return federalTaxWithHolding.toFixed(2)
     }
    
     
